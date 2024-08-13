@@ -57,6 +57,7 @@
 
         button{
             background-color: #524d4d;
+            color: whitesmoke;
             border-radius: 5px;
             height: 30px;
             width: 80px;
@@ -82,12 +83,6 @@
             padding: 10px;
             margin: 20px auto;
             text-align: center;
-        }
-
-        .chaptervideo iframe {
-            width: 100%;
-            height: auto;
-            max-width: 100%;
         }
 
         .contactus {
@@ -141,13 +136,23 @@
             margin-top: 0;
         }
 
-        .past-events-container {
-    display: flex;
-    overflow-x: auto;
-    padding: 20px;
-    background-color: #fff;
-    margin: 20px;
-    border: 1px solid #ddd;
+        .past_events .container {
+  flex-direction: column;
+}
+
+.events {
+  display: flex;
+  width: 90vw;
+  overflow-x: scroll;
+  gap: 2em;
+  #card {
+    width: 500px;
+
+    img {
+      width: 300px;
+      height: 200px;
+    }
+  }
 }
 
         /* Responsive Styles */
@@ -217,30 +222,114 @@
         <p>Email us at cse.dc@chitkara.edu.in for questions and more information!</p>
     </div>
 
-    <div class="past-events-container">
-        <div class="event">
-            <img src="https://via.placeholder.com/300x200" alt="Event 1">
-            <h4>Event 1</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet scelerisque mi. Fusce vitae semper neque.</p>
+    <div class="past_events">
+        <div class="container">
+          <h1>Past Events</h1>
+          <div class="events">
+            <div id="card">
+              <img src="download (1).jpeg" alt="" />
+  
+              <div id="card_title">Title</div>
+  
+              <div id="card_desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus ad animi explicabo minima vel? Id qui alias itaque,
+                repellat rem, veniam eius delectus dicta praesentium omnis ducimus
+                voluptatum quaerat officiis assumenda harum fuga ad distinctio
+                iure eum? Iste, a praesentium.
+              </div>
+            </div>
+  
+            <div id="card">
+              <img src="download (1).jpeg" alt="" />
+  
+              <div id="card_title">Title</div>
+  
+              <div id="card_desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus ad animi explicabo minima vel? Id qui alias itaque,
+                repellat rem, veniam eius delectus dicta praesentium omnis ducimus
+                voluptatum quaerat officiis assumenda harum fuga ad distinctio
+                iure eum? Iste, a praesentium.
+              </div>
+            </div>
+  
+            <div id="card">
+              <img src="download (1).jpeg" alt="" />
+  
+              <div id="card_title">Title</div>
+  
+              <div id="card_desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus ad animi explicabo minima vel? Id qui alias itaque,
+                repellat rem, veniam eius delectus dicta praesentium omnis ducimus
+                voluptatum quaerat officiis assumenda harum fuga ad distinctio
+                iure eum? Iste, a praesentium.
+              </div>
+            </div>
+  
+            <div id="card">
+              <img src="download (1).jpeg" alt="" />
+  
+              <div id="card_title">Title</div>
+  
+              <div id="card_desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus ad animi explicabo minima vel? Id qui alias itaque,
+                repellat rem, veniam eius delectus dicta praesentium omnis ducimus
+                voluptatum quaerat officiis assumenda harum fuga ad distinctio
+                iure eum? Iste, a praesentium.
+              </div>
+            </div>
+  
+            <div id="card">
+              <img src="download (1).jpeg" alt="" />
+  
+              <div id="card_title">Title</div>
+  
+              <div id="card_desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus ad animi explicabo minima vel? Id qui alias itaque,
+                repellat rem, veniam eius delectus dicta praesentium omnis ducimus
+                voluptatum quaerat officiis assumenda harum fuga ad distinctio
+                iure eum? Iste, a praesentium.
+              </div>
+            </div>
+  
+            <div id="card">
+              <img src="download (1).jpeg" alt="" />
+  
+              <div id="card_title">Title</div>
+  
+              <div id="card_desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus ad animi explicabo minima vel? Id qui alias itaque,
+                repellat rem, veniam eius delectus dicta praesentium omnis ducimus
+                voluptatum quaerat officiis assumenda harum fuga ad distinctio
+                iure eum? Iste, a praesentium.
+              </div>
+            </div>
+  
+            <div id="card">
+              <img src="download (1).jpeg" alt="" />
+  
+              <div id="card_title">Title</div>
+  
+              <div id="card_desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus ad animi explicabo minima vel? Id qui alias itaque,
+                repellat rem, veniam eius delectus dicta praesentium omnis ducimus
+                voluptatum quaerat officiis assumenda harum fuga ad distinctio
+                iure eum? Iste, a praesentium.
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="event">
-            <img src="https://via.placeholder.com/300x200" alt="Event 2">
-            <h4>Event 2</h4>
-            <p>Morbi in velit ac ligula venenatis consequat. Ut tincidunt, justo ut vestibulum pretium, enim nulla varius nisi.</p>
-        </div>
-        <div class="event">
-            <img src="https://via.placeholder.com/300x200" alt="Event 3">
-            <h4>Event 3</h4>
-            <p>Sed ultrices, enim nec pulvinar blandit, lorem eros viverra massa, in sodales est lacus et dolor.</p>
-        </div>
-    </div>
+      </div>
 
     <div class="chaptervideo">
         <h2>Chapter Video</h2>
-        <iframe src="https://www.youtube.com/embed/2GfgKaoyS6k?si=G3yM-usdSDhg3Jb8" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="95%" height="500px" src="https://www.youtube.com/embed/ipePsVJmAzI?si=zIter0wGJBqoIlwH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
     <button class="contactus">Contact Us</button>
